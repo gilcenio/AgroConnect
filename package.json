@@ -6,7 +6,7 @@
   "homepage": "https://github.com/gilcenio/AgroConnect",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base /AgroConnect/",
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
