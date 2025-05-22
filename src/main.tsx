@@ -5,8 +5,8 @@ import Teste from './teste';
 
 ReactDOM.createRoot(document.querySelector("#root")!).render(
   <React.StrictMode>
-    <StyledEngineProvider injectFirst>
+    {/* <StyledEngineProvider injectFirst> */}
       <Teste />
-    </StyledEngineProvider>
+    {/* </StyledEngineProvider> */}
   </React.StrictMode>
 );
