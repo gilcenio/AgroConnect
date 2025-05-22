@@ -1,12 +1,12 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom/client';
 import { StyledEngineProvider } from '@mui/material/styles';
-import Routes from './Routes/index';
+import Teste from './teste';
 
 ReactDOM.createRoot(document.querySelector("#root")!).render(
   <React.StrictMode>
     <StyledEngineProvider injectFirst>
-      <Routes />
+      <Teste />
     </StyledEngineProvider>
   </React.StrictMode>
 );
