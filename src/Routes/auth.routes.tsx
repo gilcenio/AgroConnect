@@ -6,7 +6,7 @@ import SignUp from '../Pages/SignUp';
 
 const AuthRoutes: React.FC = () => {
   return (
-    <Routes>
+    <Routes >
       <Route path="/" element={<SignIn />} />
       <Route path="/SignUp" element={<SignUp />} />
     </Routes>

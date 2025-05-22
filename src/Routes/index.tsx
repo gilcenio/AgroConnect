@@ -5,7 +5,7 @@ import AuthRoutes from './auth.routes';
 const Routes: React.FC = () => {
 
   return (
-    <Router basename="/AgroConnect/">
+    <Router >
       <AuthRoutes/>
     </Router>
   );
